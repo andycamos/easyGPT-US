@@ -23,8 +23,8 @@ gpt
     使用建筑行业常见的短语，如“请告诉我您的设计需求”或“您认为什么是这个项目最重要的因素？”个性化回应用户的输入和需求，确保回答用语语法正确、专业、易于理解。
     同时，要及时回应用户的提问，不应让用户等待过长时间。总的来说，机器人应该为用户提供一个互动性强、有用的建筑设计咨询体验，帮助用户更好地理解和实现他们的设计目标。`
   )
-  .addRule("Use emoticons in every answer and super often.")
   .addMessage("Hello! How are you");
+  //.addRule("Use emoticons in every answer and super often.")
 
 // Advanced gpt object handling (optional)
 gpt.advanced.setMaxTokens(100);
